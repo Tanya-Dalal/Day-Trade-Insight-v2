@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+body {
+    background-color: #0b0c0e;
+}
+.container {
+    display: flex;
+    height: 48vw;
+    background-color: #0b0c0e;
+}
+.nav {
+    width: 25vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #1f2025;
+    margin: 20px;
+    border-radius:10px;
+    padding: 20px;
+}
+.start{
+    color: #cfcfd0;
+    font-size: 100px;
+}
+.start2{
+    color: #cfcfd0;
+    font-size: 20px;
+    margin-top: -1vw;
+}
+
+#stock-code, #forecast-days{
+    background-color: #1f2025;
+    border: 2px #cfcfd0 solid;
+    border-radius: 10px;
+    padding: 10px;
+    color: #cfcfd0;
+    font-size: medium;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 35px;
+}
+
+#forecast-days{
+    margin-bottom: 5px;
+}
+#date-picker-range{
+    background-color: #1f2025;
+    border: 2px #cfcfd0 solid;
+    border-radius: 10px;
+    color: #cfcfd0;
+    font-size: medium;
+    margin-bottom: 20px;
+}
+.DateInput {
+    background-color: #1f2025; 
+    color: #cfcfd0;
+    border-radius: 10px;
+}
+
+.DateInput_input {
+    background-color: #1f2025; 
+    color: #cfcfd0;
+    border-radius: 10px;
+    font-size: medium;
+}
+
+.DateRangePickerInput {
+    background-color: #1f2025; 
+    color: #cfcfd0;
+    border-radius: 10px;
+    font-size: medium;
+}
+
+.DateRangePicker_picker {
+    background-color: #1f2025; 
+    color: #cfcfd0;
+    border-radius: 10px;
+}
+
+#stock-price-button, #indicators-button {
+  background-color: #1f2025;
+  border: 2px solid #cfcfd0;
+  border-radius: 30px;
+  box-shadow: #cfcfd0 2px 2px 0 0;
+  color: #cfcfd0;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 9px;
+  line-height: 40px;
+  width:200px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#forecast-button{
+    background-color: #1f2025;
+    border: 2px solid #cfcfd0;
+    border-radius: 10px;
+    box-shadow: #cfcfd0 2px 2px 0 0;
+    color: #cfcfd0;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    font-size: medium;
+    width: 50%;
+    height: 35px;
+}
+
+#indicators-button{
+    margin-top: 0px;
+}
+
+#stock-price-button:hover, #indicators-button:hover, #forecast-button:hover{
+  background-color: #fff;
+  color: #1f2025;
+  border-color: #0b0c0e;
+  box-shadow: #0b0c0e;
+}
+
+#stock-price-button:active, #indicators-button:active, #forecast-button:active{
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.content {
+    background-color: #0b0c0e;
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+}
+
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.description_ticker {
+    margin: 20px;
+}
+
+.graph {
+    flex: 1;
+    margin: 10px 0;
+}
+
+.custom-pre {
+    background-color: #0b0c0e; 
+    color: #cfcfd0; 
+    padding: 10px; 
+    border-radius: 5px; 
+    white-space: pre-wrap; 
+    margin: 10px 0; 
+}
